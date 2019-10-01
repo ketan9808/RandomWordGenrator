@@ -1,2 +1,3 @@
 # Word-genrator
-This is a Python based program in which random words are genrated  using the letters of the existing word.
+This is a program made using Python.
+In this program random words are generated using the letters of the input word.
