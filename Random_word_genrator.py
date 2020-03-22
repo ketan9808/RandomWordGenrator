@@ -1,16 +1,6 @@
-
-# coding: utf-8
-
-# In[1]:
-
-
 from itertools import permutations
 from nltk.corpus import names
 from nltk.corpus import words
-
-
-# In[2]:
-
 
 def toupper(obj):
     upper_list = []
@@ -19,10 +9,6 @@ def toupper(obj):
         upper_list.append(word.upper())
     
     return upper_list
-
-
-# In[3]:
-
 
 def data_preprocessing(char_list,req_len):
     words_obj = words.words()
@@ -45,13 +31,8 @@ def data_preprocessing(char_list,req_len):
     
     return possible_combination
 
-
-# In[4]:
-
-
 char_list = list(input('Enter any word forming from characters given: '))
 
 req_len = int(input('Enter length of resultant word: '))
 
 print(data_preprocessing(toupper(char_list),req_len))
-
